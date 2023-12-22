@@ -880,10 +880,6 @@ body {
   opacity: 0.2;
 }
 
-.infrastructure-checkbox:disabled+.checkbox-label::after {
-  display: none;
-}
-
 
 .house-type {
   margin: 0 60px 0 0;
@@ -954,17 +950,12 @@ body {
   outline: 3px solid #83B3D3;
 }
 
-
 .radio-label:active {
   opacity: 0.3;
 }
 
 .house-type-radio:disabled+.radio-label {
   opacity: 0.2;
-}
-
-.house-type-radio:disabled+.radio-label::after {
-  display: none;
 }
 
 .prices {
